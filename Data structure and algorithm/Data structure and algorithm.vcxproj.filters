@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Rovers">
+      <UniqueIdentifier>{01ba9894-b14b-4992-8c2d-943ab3c59b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{dd042666-eb90-4e5b-98e5-627061e1e030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Missions">
+      <UniqueIdentifier>{68607577-c092-4b1b-a485-7f52e7ce6415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT">
+      <UniqueIdentifier>{981cf429-9b77-47df-a84b-155b00c57332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{171a5e7c-ae3f-420b-9236-b55c33341563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MarsStation">
+      <UniqueIdentifier>{a178019f-c914-4542-a440-b8437400ae92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rover.cpp">
+      <Filter>Header Files\Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="ERovers.cpp">
+      <Filter>Header Files\Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="PRover.cpp">
+      <Filter>Header Files\Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Emission.cpp">
+      <Filter>Header Files\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="PMission.cpp">
+      <Filter>Header Files\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsStation.cpp">
+      <Filter>Header Files\MarsStation</Filter>
+    </ClCompile>
+    <ClCompile Include="FormulationEvent.cpp">
+      <Filter>Header Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>Header Files\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ERovers.h">
+      <Filter>Header Files\Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PRovers.h">
+      <Filter>Header Files\Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>Header Files\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulationEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsStation.h">
+      <Filter>Header Files\MarsStation</Filter>
+    </ClInclude>
+    <ClInclude Include="PriQ.h">
+      <Filter>Header Files\ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="Emission.h">
+      <Filter>Header Files\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="PMission.h">
+      <Filter>Header Files\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers.h">
+      <Filter>Header Files\Rovers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="inputFile.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
