@@ -1,1 +1,17 @@
-﻿D:\DriveFiles\ProgramFiles\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(440,5): error MSB8020: The build tools for Visual Studio 2019 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, please install Visual Studio 2019 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  Emission.cpp
+O:\DriveFiles\Git Repos\Mars-Exploration\Data structure and algorithm\Emission.cpp(23,9): warning C4244: 'return': conversion from 'const double' to 'int', possible loss of data
+  ERovers.cpp
+  FormulationEvent.cpp
+  main.cpp
+  MarsStation.cpp
+O:\DriveFiles\Git Repos\Mars-Exploration\Data structure and algorithm\MarsStation.cpp(138,20): warning C4101: 'isPolar': unreferenced local variable
+O:\DriveFiles\Git Repos\Mars-Exploration\Data structure and algorithm\MarsStation.cpp(138,7): warning C4101: 'isEmergency': unreferenced local variable
+O:\DriveFiles\Git Repos\Mars-Exploration\Data structure and algorithm\MarsStation.cpp(137,12): warning C4101: 'PM': unreferenced local variable
+O:\DriveFiles\Git Repos\Mars-Exploration\Data structure and algorithm\MarsStation.cpp(92,93): warning C4101: 'ptrRover': unreferenced local variable
+  Mission.cpp
+  PMission.cpp
+  PRover.cpp
+  Rover.cpp
+  UI.cpp
+  Generating Code...
+  Data structure and algorithm.vcxproj -> O:\DriveFiles\Git Repos\Mars-Exploration\x64\Debug\Data structure and algorithm.exe
